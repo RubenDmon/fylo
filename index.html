@@ -13,6 +13,16 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style> -->
+  <meta name="author" content="RDMON" />
+  <meta
+    name="description"
+    content="Code from Frontend Mentoring"
+  />
+  <meta
+    name="keywords"
+    content="HTML, CSS, project, javascript,"
+  />
+
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,39 +30,40 @@
 </head>
 <body>
 <main>
-  <div class="content">
-     <div class="firstSquare">
+  <article class="content">
+     <article class="firstSquare">
       <div class="title">
       <img src="images/icono.png" alt="logoFylo" class="filoimg"><h1>Fylo</h1>
       </div>
       <div class="logos">
-        <picture><img src="images/icon-document.svg" alt="" id="document"> 
+        <picture><img src="images/icon-document.svg" alt="logo de documento" id="document"> 
         </picture>
-        <picture> <img src="images/icon-folder.svg" alt="" id="folder"> 
+        <picture> <img src="images/icon-folder.svg" alt="logo de carpeta" id="folder"> 
         </picture>
-        <picture><img src="images/icon-upload.svg" alt="" id="upload">
+        <picture><img src="images/icon-upload.svg" alt="logo de nube de subida" id="upload">
         </picture>
       </div>
-  </div>
-  <div class="secondSquare">
-    <p class="info">You’ve used 815 GB of your storage</p>
-  <section>
-      <div class="barra barra--185">
+  </article>
+  <article class="secondSquare">
+    <p class="info">You’ve used <b>815 GB</b> of your storage</p>
+
+    <input id="GBConsumed" type="range" min="0" max="185" step="2"></input>
+      <!-- <div class="barra barra--185">
 
           <div class="point"></div>
  
-      </div>            
+      </div>             -->
       <div class="footerBarra">
       <span class="start">0 GB</span>
       <span class="end">1000 GB</span>
     </div>
     </section>
 <div class="GBTaken"><p id="Number">185</p><p id="text">GB LEFT</p></div>
-  </div>
-  </div> 
+  </article>
+</article> 
     <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">RDMON</a>.
+    Coded by <a href="https://github.com/RubenDmon/RubenDmon.github.io">RDMON</a>.
   </div>
 </main>
 
